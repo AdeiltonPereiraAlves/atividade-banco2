@@ -37,17 +37,11 @@ function App() {
   return (
     <>
       <h1>Projeto Banco de Dados II</h1>
-     {estados&& estados.map((item) => (
-      <option key={item.id} value={item.id}>
-          <div>{item.id}</div>
-          <div>{item.nome}</div>
-      </option>
-     ))}
+    
 
 <div>
         <label htmlFor="estado">Selecione um Estado: </label>
-        <div>{selectedEstado}</div>
-        <div>{pathestado}</div>
+        
         <select
           id="estado"
           value={selectedEstado || ""}
@@ -65,7 +59,7 @@ function App() {
       {/* Select de Municípios */}
       <div>
         <label htmlFor="municipio">Selecione um Município: </label>
-        <div>{pathmunicipio}</div>
+        
         <select
           id="municipio"
           

@@ -68,21 +68,7 @@ export default function useApi() {
    
     
     
-    // const fetchMapData = async (estado, municipio) => {
-    //     try {
-    //       // Suponha que temos um endpoint que retorna o mapa do estado
-    //       const response = await axios.get(`http://localhost:3008/svg/${estado}/${municipio}`);
-    //       setMapData(response.data);
-    //     } catch (error) {
-    //       console.error("Erro ao buscar mapa:", error);
-    //     }
-    //   };// O array vazio significa que a requisição será feita apenas uma vez
-    //   useEffect(() => {
-    //     if (selectedEstado) {
-    //       fetchMunicipios(selectedEstado);
-    //       fetchMapData(selectedEstado,selectedMunicipio); // Buscar mapa quando o estado for selecionado
-    //     }
-    //   }, [selectedEstado]);
+  
     return {
       
         pathestado,
