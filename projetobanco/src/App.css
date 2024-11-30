@@ -1,0 +1,21 @@
+
+
+
+.map-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  overflow: hidden; /* Evita barras de rolagem */
+}
+.map-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  max-width: 100%; /* Garante que o SVG não ultrapasse a largura disponível */
+  max-height: 100%; /* Garante que o SVG não ultrapasse a altura disponível */
+  border: 1px solid #ccc; /* Opcional: para delimitar o SVG visualmente */
+}
